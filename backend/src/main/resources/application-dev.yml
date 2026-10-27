@@ -1,0 +1,8 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+app:
+  bootstrap-admin:
+    enabled: ${BOOTSTRAP_ADMIN_ENABLED:false}
